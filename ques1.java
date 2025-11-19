@@ -9,7 +9,7 @@ public class ques1
 
  {   public static void main(String[] args) {
 
-        // 1. ARITHMETIC OPERATORS
+        // ARITHMETIC OPERATORS
         int a = 10, b = 3;
         System.out.println("Arithmetic Operators:");
         System.out.println("a + b = " + (a + b));
@@ -19,7 +19,7 @@ public class ques1
         System.out.println("a % b = " + (a % b));
         System.out.println();
         
-        // 2. UNARY OPERATORS
+        // UNARY OPERATORS
         int x = 5;
         System.out.println("Unary Operators:");
         System.out.println("x = " + x);
@@ -29,7 +29,7 @@ public class ques1
         System.out.println("After ++x , x = " + x);
         System.out.println();
 
-        // 3. ASSIGNMENT OPERATORS
+        // ASSIGNMENT OPERATORS
         int y = 20;
         System.out.println("Assignment Operators:");
         System.out.println("y = " + y);
@@ -43,7 +43,7 @@ public class ques1
         System.out.println("y /= 4 --> " + y);
         System.out.println();
 
-        // 4. RELATIONAL OPERATORS
+        // RELATIONAL OPERATORS
         int p = 7, q = 10;
         System.out.println("Relational Operators:");
         System.out.println("p == q : " + (p == q));
@@ -54,7 +54,7 @@ public class ques1
         System.out.println("p >= q : " + (p >= q));
         System.out.println();
 
-        // 5. LOGICAL OPERATORS
+        // LOGICAL OPERATORS
         boolean cond1 = true, cond2 = false;
         System.out.println("Logical Operators:");
         System.out.println("cond1 && cond2 : " + (cond1 && cond2));
@@ -62,7 +62,7 @@ public class ques1
         System.out.println("!cond1 : " + (!cond1));
         System.out.println();
 
-        // 6. TERNARY OPERATOR
+        // TERNARY OPERATOR
         int num = 15;
         String result = (num % 2 == 0) ? "Even" : "Odd";
         System.out.println("Ternary Operator:");
