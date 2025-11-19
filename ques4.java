@@ -6,16 +6,30 @@
  * @version (a version number or a date)
  */
 public class ques4{
-    public static void main(String[] args) {
+    
+     byte byteValue;
+    short shortValue;
+    int intValue;
+    long longValue;
+    float floatValue;
+    double doubleValue;
+    char charValue;
+    boolean booleanValue;
+    
+    public static void main (String[] args){
 
-        long bigNumber = 9876543210L;
 
-        float floatNumber = 12.34f;
+        ques4 obj = new ques4();
 
-        char copyrightSymbol = '\u00A9';
-
-        System.out.println("Long value: " + bigNumber);
-        System.out.println("Float value: " + floatNumber);
-        System.out.println("Unicode char value: " + copyrightSymbol);
+        System.out.println("Default byte value: " + obj.byteValue);
+        System.out.println("Default short value: " + obj.shortValue);
+        System.out.println("Default int value: " + obj.intValue);
+        System.out.println("Default long value: " + obj.longValue);
+        System.out.println("Default float value: " + obj.floatValue);
+        System.out.println("Default double value: " + obj.doubleValue);
+        System.out.println("Default char value: '" + obj.charValue + "'"); 
+        System.out.println("Default boolean value: " + obj.booleanValue);
     }
 }
+
+
